@@ -1,22 +1,21 @@
 {
-    "name": "fungku/laravel-hubspot",
-    "description": "PHP HubSpot API wrapper for Laravel 4",
+    "name": "ryanwinchester/laravel-hubspot",
+    "description": "PHP HubSpot API wrapper for Laravel 5",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Fungku",
-            "email": "fungku@gmail.com"
+            "name": "Ryan Winchester",
+            "email": "fungku@gmail.com",
+            "homepage": "http://ryanwinchester.ca"
         }
     ],
     "require": {
-        "fungku/hubspot": "1.0.*"
+        "illuminate/support": "5.2.*",
+        "ryanwinchester/hubspot-php": "1.0.*@dev"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
-        "psr-0": {
-            "Fungku\\HubSpot\\": "src/"
+        "psr-4": {
+            "SevenShores\\Hubspot\\": "src/"
         }
     },
     "minimum-stability": "stable"
