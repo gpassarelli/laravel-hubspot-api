@@ -1,4 +1,4 @@
-Easy to use Hubspot API for Laravel 5.2
+Easy to use Hubspot API for Laravel 5.*
 ===================
 
 [![Latest Stable Version](https://poser.pugx.org/ryanwinchester/laravel-hubspot/v/stable.svg)](https://packagist.org/packages/ryanwinchester/laravel-hubspot)
